@@ -1,7 +1,7 @@
 import React from "react";
 
-import VideoWeb from "../../assets/SectionThree/VideoWeb.mp4";
-import VideoMobile from "../../assets/SectionThree/VideoSemillas.mp4";
+//import VideoWeb from "../../assets/SectionThree/VideoWeb.mp4";
+//import VideoMobile from "../../assets/SectionThree/VideoSemillas.mp4";
 import imgThree from "../../assets/SectionThree/imgThree.png";
 import imgThree2 from "../../assets/SectionThree/imgThree2.png";
 import icon1 from "../../assets/SectionThree/icono1.png";
@@ -15,13 +15,13 @@ export const SeccionThree = () => {
         <div>
             <div className="hidden lg:block">
                 <video preload="true" autoPlay loop muted>
-                    <source src={VideoWeb} type="video/mp4" allowFullScreen />
+                    <source src="" type="video/mp4" allowFullScreen />
                 </video>
             </div>
 
             <div className="block lg:hidden">
                 <video preload="true" autoPlay loop muted>
-                    <source src={VideoMobile} type="video/mp4" allowFullScreen />
+                    <source src="" type="video/mp4" allowFullScreen />
                 </video>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 static z-40">
