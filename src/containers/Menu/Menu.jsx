@@ -28,19 +28,13 @@ export const Menu = ({ open, toggleOpen, ...props }) => {
             </div>
 
             {/*fin icon whatsapp flotante*/}
-            <div className="px-3 md:px-12 lg:mx-auto lg:px-6 lg:py-2 w-full fixed z-10  lg:static bg-blue">
-              <div className="flex justify-between">
-                <div className="relative z-20 flex">
-                  <img src={LogoRBC} alt="LogoRBC" className="w-16 lg:w-24 " />
-                  <img
-                    src={LogoCalidad}
-                    alt="LogoCalidad"
-                    className="w-16 lg:w-24 "
-                  />
-                </div>
+          
+            <div className="px-3 md:px-12 lg:mx-auto lg:px-6 lg:py-2 w-full fixed z-10  lg:static bg-green-900 bg-opacity-95">
+              <div className="flex justify-between lg:justify-start">
 
-                <div className=" flex justify-between">
-                  <div className="flex sm:items-end lg:mb-5 justify-end  lg:border-l-0 order-2 lg:order-1">
+
+                <div className=" flex justify-between order-2 lg:order-1">
+                  <div className="flex sm:items-end lg:mb-5 justify-end  lg:border-l-0 ">
                     <input
                       type="checkbox"
                       id="hamburger"
@@ -65,7 +59,7 @@ export const Menu = ({ open, toggleOpen, ...props }) => {
                       ></div>
                     </label>
 
-                    <div className=" z-10 peer-checked:-translate-x-0 fixed inset-0 w-[calc(100%)] translate-x-[100%] bg-blue  shadow-xl transition duration-500 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
+                    <div className=" z-10 peer-checked:-translate-x-0 fixed inset-0 w-[calc(100%)] translate-x-[100%] bg-green-900  shadow-xl transition duration-500 lg:border-r-0 lg:w-auto lg:static lg:shadow-none lg:translate-x-0">
                       <div className="flex flex-col h-full justify-between lg:items-center lg:flex-row">
                         <ul className="px-6 pt-32 text-gray-700 space-y-8  lg:space-y-0 lg:flex lg:space-x-5  lg:pt-0">
                           <li className="lg:flex justify-center items-center">
@@ -119,19 +113,15 @@ export const Menu = ({ open, toggleOpen, ...props }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex lg:items-end lg:ml-10 order-1 lg:order-2 z-10 lg:mb-1 items-center">
-                    <a href="https://www.facebook.com/semillasrbc">
-                      <img src={Facebook} alt="" className="w-8 lg:w-12 mx-1" />
-                    </a>
-                    <a href="https://www.instagram.com/semillasrbc/?hl=es">
-                      <img src={Instagram} alt="" className="w-8 lg:w-12" />
-                    </a>
-                  </div>
+                </div>
+                <div className="relative z-20 flex order-1 lg:order-2">
+                  <img src={LogoRBC} alt="LogoRBC" className="w-16 lg:w-24 " />
                 </div>
               </div>
+            
             </div>
-            <div className="relative h-12 md:h-12  z-40  md:bg-yellow">
-              <div className="flex w-full justify-center bg-yellow  text-center  p-2 text-xs sm:text-base lg:text-2xl fixed font-bold  lg:static  ">
+            <div className="relative h-10 md:h-10  z-40  md:bg-orange">
+              <div className="flex w-full justify-center bg-orange  text-green-900 text-center  p-1 text-xs sm:text-base lg:text-2xl fixed font-medium  lg:static  ">
                 <div className="flex items-center  ">
                   <span>•</span>
                   <span className="hidden lg:block">
@@ -147,7 +137,6 @@ export const Menu = ({ open, toggleOpen, ...props }) => {
                 </div>
               </div>
             </div>
-
             {props.children}
           </div>
         </header>
