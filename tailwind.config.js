@@ -65,6 +65,7 @@ export default {
           DEFAULT: '#F5F4F5'
         }
 
+
       }
     },
   },
