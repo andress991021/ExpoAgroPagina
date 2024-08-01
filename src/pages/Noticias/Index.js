@@ -1,0 +1,1 @@
+export { Noticia1Load as Noticia1 } from './Noticia1Load'
