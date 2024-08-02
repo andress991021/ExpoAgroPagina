@@ -17,19 +17,19 @@ export const SeccionTwo = () => {
         </center>
         <center>
           <img
-            className="w-full block justify-center items-center lg:hidden  "
-            src={bannerMobile}
+            className="w-full block justify-center items-center lg:hidden -mt-8 "
+            src={banner}
             alt=""
           />
         </center>
         <div className="grid grid-cols-1 lg:grid-cols-1 static z-40">
           <div className="mx-20  lg:w-3/4">
-            <h1 className="text-xl m-10 text-green-800 sm:text-7xl  font-bold  text-center md:text-left ">
+            <h1 className="text-xl m-10 text-green-800 text-4xl lg:text-7xl   font-bold  text-center md:text-left ">
               Quienes Somos
             </h1>
 
             <br />
-            <p className="text-base lg:text-3xl  m-10 -mt-10 lg:w-full text-justify">
+            <p className="text-base  lg:text-3xl -m-10  lg:m-10 -mt-10 lg:w-full text-justify">
               Somos una empresa consolidada en el sector forestal y agrícola,
               destacándonos por nuestro compromiso, nos especializamos en la
               recolección, producción e importación de semillas, garantizando
@@ -37,20 +37,20 @@ export const SeccionTwo = () => {
               necesidades de nuestros clientes.
             </p>
 
-            <h2 className="text-2xl m-10 text-green-800 sm:text-7xl  font-bold  text-left ">
-              Visión
-            </h2>
+            <h1 className="text-xl m-10 text-green-800 text-4xl lg:text-7xl   font-bold  text-center md:text-left ">
+              Vision
+            </h1>
             <br />
-            <p className="text-base lg:text-3xl   m-10 -mt-10 lg:w-full text-justify">
+            <p className="text-base lg:text-3xl   -m-10  lg:m-10  -mt-10 lg:w-full text-justify">
               Mantenernos como una empresa líder y competitiva en el sector
               agroforestal, destacada por nuestra calidad y compromiso, es nues-
               tro objetivo principal.
             </p>
-            <h2 className="text-2xl m-10 -mt-4 text-green-800 sm:text-7xl sm:mt-4  font-bold  text-left ">
-              Misión
-            </h2>
+            <h1 className="text-xl m-10 text-green-800 text-4xl lg:text-7xl   font-bold  text-center md:text-left ">
+              Mision
+            </h1>
             <br />
-            <p className="text-base lg:text-3xl   m-10 -mt-10 lg:w-full text-justify">
+            <p className="text-base lg:text-3xl   -m-10  lg:m-10  -mt-10 lg:w-full text-justify mb-20">
               Semillas Expoagro SAS es una empresa líder en el sector
               agroforestal, reconocida por sus rigurosos estándares de calidad y
               su competitivi- dad. Nuestro compromiso con el crecimiento del
