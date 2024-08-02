@@ -86,6 +86,6 @@ button:focus-visible {
 
 /* Cambia el color del "pulgar" (thumb) del scroll */
 ::-webkit-scrollbar-thumb {
-  background-color: #E2CF01; /* Cambia el color del pulgar */
+  background-color: #E47C2C; /* Cambia el color del pulgar */
   border-radius: 5px;
 }
