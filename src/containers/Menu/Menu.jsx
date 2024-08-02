@@ -28,11 +28,9 @@ export const Menu = ({ open, toggleOpen, ...props }) => {
             </div>
 
             {/*fin icon whatsapp flotante*/}
-          
-            <div className="px-3 md:px-12 lg:mx-auto lg:px-6 lg:py-2 w-full fixed z-10  lg:static bg-green-900 bg-opacity-95">
+
+            <div className="px-3 md:px-12 lg:mx-auto lg:px-0  w-screen fixed z-10  lg:absolute  bg-green-900 bg-opacity-95">
               <div className="flex justify-between lg:justify-start">
-
-
                 <div className=" flex justify-between order-2 lg:order-1">
                   <div className="flex sm:items-end lg:mb-5 justify-end  lg:border-l-0 ">
                     <input
@@ -118,25 +116,26 @@ export const Menu = ({ open, toggleOpen, ...props }) => {
                   <img src={LogoRBC} alt="LogoRBC" className="w-16 lg:w-24 " />
                 </div>
               </div>
-            
-            </div>
-            <div className="relative h-10 md:h-10  z-40  md:bg-orange">
-              <div className="flex w-full justify-center bg-orange  text-green-900 text-center  p-1 text-xs sm:text-base lg:text-2xl fixed font-medium  lg:static  ">
-                <div className="flex items-center  ">
-                  <span>•</span>
-                  <span className="hidden lg:block">
-                    Contáctenos 313 339 3743 / 310 4443808 •{" "}
-                  </span>
-                  <span className="block lg:hidden">
-                    Contáctenos 313 339 3743 / 310 4443808 •{" "}
-                  </span>
-                  <span className="block lg:hidden">•</span>
-                  <span>
-                    Cobertura nacional • Excelente calidad y variedad •
-                  </span>
+
+              <div className="relative h-10 md:h-10  z-40 w-full  md:bg-orange">
+                <div className="flex w-full justify-center bg-orange  text-green-900 text-center  p-1 text-xs sm:text-base lg:text-2xl fixed font-medium  lg:static  ">
+                  <div className="flex items-center  ">
+                    <span>•</span>
+                    <span className="hidden lg:block">
+                      Contáctenos 313 339 3743 / 310 4443808 •{" "}
+                    </span>
+                    <span className="block lg:hidden">
+                      Contáctenos 313 339 3743 / 310 4443808 •{" "}
+                    </span>
+                    <span className="block lg:hidden">•</span>
+                    <span>
+                      Cobertura nacional • Excelente calidad y variedad •
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
+
             {props.children}
           </div>
         </header>
