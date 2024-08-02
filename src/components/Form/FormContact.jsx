@@ -4,9 +4,9 @@ import { Button } from "../Buttons";
 
 export const FormContact = ({Nombre,Email,Telefono,Empresa,Mensaje, setNombre,setEmail,setTelefono,setEmpresa,setMensaje,handleSubmit}) => {
     return (
-        <div className="px-16 w-screen md:w-full ">
+        <div className="sm:px-16 w-screen md:w-full ">
 
-            <div className="px-16 w-screen  md:w-full bg-green-800 rounded-xl border">
+            <div className="px-8 lg:px-16 w-screen  md:w-full bg-green-800 rounded-xl border">
                 <div className="pt-8 lg:pt-8   p-5 rounded-t-3xl">
                 
                     <form onSubmit={handleSubmit} className="space-y-2 lg:space-y-7 mt-2">
@@ -31,7 +31,7 @@ export const FormContact = ({Nombre,Email,Telefono,Empresa,Mensaje, setNombre,se
                 <br />
                 
             </div>
-            <div className="text-base lg:text-lg  text-right mt-3" type="submit">
+            <div className="text-base lg:text-lg text-center  lg:text-right mt-3" type="submit">
                             <Button type="main" name="CONTACTANOS" /> 
             </div>   
         </div>
