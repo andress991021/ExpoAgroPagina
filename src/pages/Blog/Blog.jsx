@@ -59,7 +59,7 @@ export const Blog = () => {
               la cartera y sus entidades adscritas, tras el aplazamiento de
               recursos anunciado por Hacienda a comienzo de este mes...
             </p>
-            <a href="#">
+            <a href="https://www.minagricultura.gov.co/noticias/Paginas/Ejecuci%C3%B3n-del-sector-agro-es-del-46-5-en-sus-proyectos-de-inversi%C3%B3n-para-2024.aspx">
               <h1 className="text-3xl -mt-10 sm:mt-10 m-10 sm:text-3xl font-bold  text-left text-green-700 underline">
                 Ver más
               </h1>
@@ -97,7 +97,7 @@ export const Blog = () => {
               Alimentación (FAO) donde se pueden cultivar y producir los
               alimentos que requiere la humanidad...
             </p>
-            <a href="#">
+            <a href="https://www.eltiempo.com/vida/medio-ambiente/se-puede-conservar-la-biodiversidad-y-a-la-vez-impulsar-en-colombia-la-produccion-agricola-3351415">
               <h1 className="text-3xl -mt-10 sm:mt-10 m-10 sm:text-3xl font-bold  text-left text-green-700 underline">
                 Ver más
               </h1>
@@ -133,7 +133,7 @@ export const Blog = () => {
               inundaciones, los cuales pueden perjudicar los cultivos o causar
               la muerte de plantas y animales...
             </p>
-            <a href="#">
+            <a href="https://www.larepublica.co/especiales/seguros-2024/lo-que-tiene-que-saber-sobre-los-seguros-agropecuarios-3896874">
               <h1 className="text-3xl -mt-10 sm:mt-10 m-10 sm:text-3xl font-bold  text-left text-green-700 underline">
                 Ver más
               </h1>

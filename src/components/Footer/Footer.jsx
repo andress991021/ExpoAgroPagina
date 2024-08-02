@@ -1,5 +1,5 @@
 import React from "react";
-import LogoFooter from "../../assets/Footer/LogoFooter.svg";
+import LogoFooter from "../../assets/Footer/LogoExpoAgro.svg";
 import Facebook from "../../assets/Redes/Facebook.svg";
 import Instagram from "../../assets/Redes/Instagram.svg";
 import IconoCorreo from "../../assets/Footer/IconoCorreo.svg";
@@ -12,8 +12,8 @@ export const Footer = ({}) => {
     <footer className="bg-green-900 text-base lg:text-lg ">
       <div className="w-full lg:w-full px-5">
         <div className="grid grid-cols-1  px-2 py-6 md:grid-cols-2  lg:grid-cols-4 ">
-          <div className="order-3 lg:order-1 mt-5 lg:mt-0">
-            <img src={LogoFooter} alt="" className="w-40 lg:" />
+          <div className="order-1 lg:order-1 mb-5  lg:mt-0">
+            <img src={LogoFooter} alt="" className="w-60 lg:w-72 " />
           </div>
           <div className="order-1 lg:order-2 w-full">
             <h2 className="mb-6 text-xl font-semibold text-white">
@@ -25,12 +25,12 @@ export const Footer = ({}) => {
                 <div>
                   <li className="">
                     <a href="#" className=" hover:underline ml-1">
-                      +57 321 300 1976
+                      +57 313 339 3743
                     </a>
                   </li>
                   <li className="">
                     <a href="#" className="hover:underline ml-1">
-                      +57 314 294 2315
+                      +57 310 444 3808
                     </a>
                   </li>
                 </div>
@@ -39,23 +39,20 @@ export const Footer = ({}) => {
               <li className="mb-4 flex items-center">
                 <img src={IconoTelefono} alt="" className="w-8" />
                 <a href="#" className="hover:underline ml-1">
-                  +57 1 728 5909
+                  +57 601 703 9664
                 </a>
               </li>
               <li className="mb-4 flex items-center">
                 <img src={IconoCorreo} alt="" className="w-8" />
                 <a href="#" className="hover:underline ml-1">
-                  Servicioalcliente@semillasrbc.com
+                  ventassemillas@expoagro.com
                 </a>
               </li>
               <li className="flex items-center">
                 <img src={IconoDireccion} alt="" className="w-8" />
                 <div className="ml-1">
                   <a href="#" className="hover:underline">
-                    Calle 43 A sur No. 72 B 15
-                  </a>
-                  <a href="#" className="hover:underline">
-                    <br></br>Barrio San Andrés Bogotá - Colombia
+                    Transversal 73A Bis B # 36-10 Sur · Bogotá - Colombia.
                   </a>
                 </div>
               </li>
@@ -75,8 +72,18 @@ export const Footer = ({}) => {
               Síguenos:
             </h2>
             <div className="flex ml-4">
-              <img src={Facebook} alt="" className="w-1/6 mr-2 h-fit" />
-              <img src={Instagram} alt="" className="w-1/6 h-fit" />
+              <a
+                href="https://www.facebook.com/profile.php?id=61561022048896"
+                className="w-1/6 mr-2 h-fit"
+              >
+                <img src={Facebook} alt="" className="" />
+              </a>
+              <a
+                href="https://www.instagram.com/semillasexpoagro/"
+                className="w-1/6 mr-2 h-fit"
+              >
+                <img src={Instagram} alt="" className="w-full" />
+              </a>
             </div>
           </div>
         </div>

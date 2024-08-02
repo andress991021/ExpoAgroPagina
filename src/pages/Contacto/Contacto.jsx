@@ -56,15 +56,15 @@ export const Contacto = () => {
       </div>
       <div>
         <div className="">
-          <div className="  w-full  ">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31815.66990576169!2d-74.145054!3d4.601413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f77d36669d7%3A0x311cf1540437869e!2sCl.%2043a%20Sur%20%2372b-15%2C%20Bogot%C3%A1%2C%20Colombia!5e0!3m2!1sen!2sus!4v1688522314106!5m2!1sen!2sus"
-              className="w-full"
-              width="600"
-              height="450"
-              loading="lazy"
-            ></iframe>
-          </div>
+        <div className="w-full ">
+  <iframe
+    src="https://www.google.com/maps/embed/v1/place?key=TU_CLAVE_DE_API&q=Kennedy,Bogotá,Colombia"
+    className="w-full"
+    width="600"
+    height="300"
+    loading="lazy"
+  ></iframe>
+</div>
         </div>
       </div>
       <Footer />

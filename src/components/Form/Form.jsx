@@ -4,7 +4,7 @@ import { Button } from "../Buttons";
 
 export const Form = ({Nombre,Email,Telefono,Empresa,Mensaje, setNombre,setEmail,setTelefono,setEmpresa,setMensaje,handleSubmit}) => {
     return (
-        <div className="w-screen px-4 md:w-1/2 flex ">
+        <div className="w-full px-4 md:w-1/2 flex  ">
             <div className="pt-8 lg:pt-8  bg-green-800 p-5 rounded-t-3xl w-full">
 
                 <form onSubmit={handleSubmit} className="space-y-2 lg:space-y-3">
