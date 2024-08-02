@@ -66,6 +66,15 @@ export const SeccionTwo = () => {
             alt=""
           />
         </center>
+
+      
+        <center>
+          <img
+            className="w-full block justify-center items-center lg:hidden -mt-8 "
+            src={banner2}
+            alt=""
+          />
+        </center>
        
       </div>
     </div>
