@@ -74,7 +74,7 @@ export const SeccionThree = () => {
             Somos una empresa consolidada en el sector forestal y agrícola,
             destacándonos por nuestro compromiso, nos especializamos en la
             recolección, producción e importación de semillas, garantizando una
-            calidad superior y una amplia diversidad para satis- facer las
+            calidad superior y una amplia diversidad para satisfacer las
             necesidades de nuestros clientes.
           </p>
 
@@ -84,8 +84,7 @@ export const SeccionThree = () => {
        
           <p className="text-base lg:text-xl    lg:w-full text-justify">
             Mantenernos como una empresa líder y competitiva en el sector
-            agroforestal, destacada por nuestra calidad y compromiso, es nues-
-            tro objetivo principal.
+            agroforestal, destacada por nuestra calidad y compromiso, es nuestro objetivo principal.
           </p>
           <h2 className="text-2xl mb-2 mt-5  lg:mb-5 lg:mt-10  text-green-800 sm:text-7xl sm:mt-4  font-bold  text-left ">
             Misión
@@ -94,7 +93,7 @@ export const SeccionThree = () => {
           <p className="text-base lg:text-xl    lg:w-full text-justify">
             Semillas Expoagro SAS es una empresa líder en el sector
             agroforestal, reconocida por sus rigurosos estándares de calidad y
-            su competitivi- dad. Nuestro compromiso con el crecimiento del
+            su competitividad. Nuestro compromiso con el crecimiento del
             sector productivo del campo y la conservación del medio ambiente es
             primordial en todos nuestros procedimientos.
           </p>
@@ -165,7 +164,7 @@ export const SeccionThree = () => {
               Estamos certificados
             </h1>
             <p className="text-base lg:text-lg  lg:w-full text-justify mb-5">
-              Semillas ExpoAgro sas. es una empresa certificada por el Instituto
+              Semillas ExpoAgro sas. Es una empresa certificada por el Instituto
               Colombiano Agropecuario ICA para comercializar, empacar e importar
               semillas de alta calidad con cobertura nacional e internacional.
             </p>

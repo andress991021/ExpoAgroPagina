@@ -45,7 +45,7 @@ export const Footer = ({}) => {
               <li className="mb-4 flex items-center">
                 <img src={IconoCorreo} alt="" className="w-8" />
                 <a href="#" className="hover:underline ml-1">
-                  ventassemillas@expoagro.com
+                  ventassemillas@expoagro.com.co
                 </a>
               </li>
               <li className="flex items-center">

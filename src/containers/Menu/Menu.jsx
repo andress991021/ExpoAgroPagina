@@ -15,9 +15,9 @@ export const Menu = ({ open, toggleOpen, ...props }) => {
         <header className="">
           <div className=" relative  shadow-2x z-20  ">
             {/*inicio icon whatsapp flotante*/}
-            <div className="absolute top-72">
-              <div className="w-full h-10  fixed  flex justify-end items-end  mt-80 lg:pb-16 pr-5  z-10">
-                <a href={`https://wa.me/${573133393743}`}>
+            <div className="">
+              <div className="w-full h-10  fixed bottom-5 lg:right-5  flex justify-end items-end  mt-80 lg:pb-16 pr-5  z-10">
+                <a href={`https://wa.me/${573133393743}`} target="_blank">
                   <img
                     src={Whatsapp}
                     className="w-14 cursor-pointer  "

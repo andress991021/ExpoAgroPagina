@@ -58,7 +58,7 @@ export const Contacto = () => {
         <div className="">
         <div className="w-full ">
   <iframe
-    src="https://www.google.com/maps/embed/v1/place?key=TU_CLAVE_DE_API&q=Kennedy,Bogotá,Colombia"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248.55389820843422!2d-74.14710600254372!3d4.618631117092298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1723440117615!5m2!1ses-419!2sco"
     className="w-full"
     width="600"
     height="300"

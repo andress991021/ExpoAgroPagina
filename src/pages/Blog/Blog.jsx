@@ -11,7 +11,7 @@ import { Footer } from "../../components";
 
 export const Blog = () => {
   return (
-    <div className="pt-16 md:pt-0">
+    <div className="pt-16 md:pt-0 ">
       <center>
         <img
           className="w-full hidden justify-center items-center lg:block lg:w-full "
@@ -28,66 +28,66 @@ export const Blog = () => {
       </center>
       <div>
         <h1 className="lg:text-7xl m-5  text-green-800 text-4xl  font-bold  text-center md:text-left lg:mt-10 lg:ml-56 lg:-mt-20">
-          Mantente al dia
+          Mantente al día
         </h1>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 static z-40 lg:mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 static z-40 lg:mt-20 mx-5">
           <div>
             <center>
               <img
-                className="w-full w-3/4 lg:w-3/4 mb-20"
+                className="w-full w-3/4 lg:w-3/4 mb-5 lg:mt-14 lg:mt-0"
                 src={imgNoticias1}
                 alt=""
               />
             </center>
           </div>
-          <div className="mx-auto sm:-mt-20  lg:w-3/4 lg:mt-5">
-            <h1 className="text-3xl -mt-10 sm:mt-10 m-10 text-orange sm:text-5xl font-bold  text-left ">
+          <div className="mx-auto sm:-mt-20  lg:w-3/4 lg:mt-5 space-y-2 lg:space-y-5">
+            <h1 className="text-3xl -mt-5 sm:mt-10 text-orange sm:text-5xl font-bold  text-left ">
               Ejecución del sector agro es del 46.5% en sus proyectos de
               inversión para 2024
             </h1>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify font-bold text-green-700">
+            <p className="text-base lg:text-lg  lg:w-full text-justify font-bold text-green-700">
               16 de julio de 2024
             </p>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify font-bold text-green-700">
+            <p className="text-base lg:text-lg  lg:w-full text-justify font-bold text-green-700">
               Fuente Ministerio de agricultura de Colombia
             </p>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify">
+            <p className="text-base lg:text-lg  lg:w-full text-justify">
               Distintos ángulos la ruralidad en el país, ya tienen una ejecución
               en compromisos del 46.5% (con corte al 21 de junio). Este
               porcentaje corresponde a cuatro de los $8.58 billones asignados a
               la cartera y sus entidades adscritas, tras el aplazamiento de
               recursos anunciado por Hacienda a comienzo de este mes...
             </p>
-            <a href="https://www.minagricultura.gov.co/noticias/Paginas/Ejecuci%C3%B3n-del-sector-agro-es-del-46-5-en-sus-proyectos-de-inversi%C3%B3n-para-2024.aspx">
-              <h1 className="text-3xl -mt-10 sm:mt-10 m-10 sm:text-3xl font-bold  text-left text-green-700 underline">
+            <a href="https://www.minagricultura.gov.co/noticias/Paginas/Ejecuci%C3%B3n-del-sector-agro-es-del-46-5-en-sus-proyectos-de-inversi%C3%B3n-para-2024.aspx" target="_blank">
+              <h1 className="text-2xl  sm:mt-5  sm:text-3xl  font-bold  text-left text-green-700 underline">
                 Ver más
               </h1>
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 static z-40 lg:mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 static z-40 lg:mt-20  mx-5">
           <div>
             <center>
               <img
-                className="w-full w-3/4 lg:w-3/4 mb-20"
+                className="w-full w-3/4 lg:w-3/4 mb-5 mt-14 lg:mt-0"
                 src={imgNoticias2}
                 alt=""
               />
             </center>
           </div>
-          <div className="mx-auto sm:-mt-20  lg:w-3/4 lg:mt-5">
-            <h1 className="text-3xl -mt-10 sm:mt-10 m-10 text-orange sm:text-5xl font-bold  text-left ">
+          <div className="mx-auto sm:-mt-20  lg:w-3/4 lg:mt-5 space-y-2 lg:space-y-5">
+            <h1 className="2  sm:mt-5  text-orange sm:text-5xl font-bold  text-left ">
               ¿Se puede conservar la biodiversidad y a la vez impulsar en
               Colombia la producción agrícola?
             </h1>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify font-bold text-green-700">
+            <p className="text-base lg:text-lg  lg:w-full text-justify font-bold text-green-700">
               16 de julio de 2024
             </p>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify font-bold text-green-700">
+            <p className="text-base lg:text-lg  lg:w-full text-justify font-bold text-green-700">
               Fuente Periodico El Tiempo
             </p>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify">
+            <p className="text-base lg:text-lg  lg:w-full text-justify">
               El mundo consume cada vez más alimentos. De acuerdo con el Banco
               Mundial, los sistemas alimentarios sólidos, sostenibles e
               inclusivos son fundamentales para alcanzar los objetivos de
@@ -97,35 +97,35 @@ export const Blog = () => {
               Alimentación (FAO) donde se pueden cultivar y producir los
               alimentos que requiere la humanidad...
             </p>
-            <a href="https://www.eltiempo.com/vida/medio-ambiente/se-puede-conservar-la-biodiversidad-y-a-la-vez-impulsar-en-colombia-la-produccion-agricola-3351415">
-              <h1 className="text-3xl -mt-10 sm:mt-10 m-10 sm:text-3xl font-bold  text-left text-green-700 underline">
+            <a href="https://www.eltiempo.com/vida/medio-ambiente/se-puede-conservar-la-biodiversidad-y-a-la-vez-impulsar-en-colombia-la-produccion-agricola-3351415" target="_blank">
+              <h1 className="text-2xl  sm:mt-5  sm:text-3xl font-bold  text-left text-green-700 underline">
                 Ver más
               </h1>
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 static z-40 lg:mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 static z-40 lg:mt-20 mx-5">
           <div>
             <center>
               <img
-                className="w-full w-3/4 lg:w-3/4 mb-20"
+                className="w-full w-3/4 lg:w-3/4 mb-5 mt-14 lg:mt-0"
                 src={imgNoticias3}
                 alt=""
               />
             </center>
           </div>
-          <div className="mx-auto sm:-mt-20  lg:w-3/4 lg:mt-5">
-            <h1 className="text-3xl -mt-10 sm:mt-10 m-10 text-orange sm:text-5xl font-bold  text-left ">
+          <div className="mx-auto sm:-mt-20  lg:w-3/4 lg:mt-5 space-y-2 lg:space-y-5">
+            <h1 className="text-3xl  sm:mt-10  text-orange sm:text-5xl font-bold  text-left ">
               Esto debe saber para proteger su inversión agrícola a través de
               seguros agropecuarios
             </h1>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify font-bold text-green-700">
+            <p className="text-base lg:text-lg  lg:w-full text-justify font-bold text-green-700">
               16 de julio de 2024
             </p>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify font-bold text-green-700">
+            <p className="text-base lg:text-lg  lg:w-full text-justify font-bold text-green-700">
               Fuente Diario La Republica
             </p>
-            <p className="text-base lg:text-lg m-10 lg:w-full text-justify">
+            <p className="text-base lg:text-lg  lg:w-full text-justify">
               El seguro agropecuario es un instrumento diseñado para proteger al
               productor agrícola o pecuario contra riesgos inherentes a su
               actividad económica. Este mecanismo ofrece cobertura frente a
@@ -133,8 +133,8 @@ export const Blog = () => {
               inundaciones, los cuales pueden perjudicar los cultivos o causar
               la muerte de plantas y animales...
             </p>
-            <a href="https://www.larepublica.co/especiales/seguros-2024/lo-que-tiene-que-saber-sobre-los-seguros-agropecuarios-3896874">
-              <h1 className="text-3xl -mt-10 sm:mt-10 m-10 sm:text-3xl font-bold  text-left text-green-700 underline">
+            <a href="https://www.larepublica.co/especiales/seguros-2024/lo-que-tiene-que-saber-sobre-los-seguros-agropecuarios-3896874" target="_blank">
+              <h1 className="text-2xl  sm:mt-5  sm:text-3xl font-bold  text-left text-green-700 underline mb-10 ">
                 Ver más
               </h1>
             </a>
