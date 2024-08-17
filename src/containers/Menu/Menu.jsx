@@ -1,12 +1,7 @@
 import React from "react";
 import LogoRBC from "../../assets/Navbar/LogoExpoAgro.svg";
-import LogoCalidad from "../../assets/Navbar/LogoCalidad.svg";
-import Facebook from "../../assets/Redes/Facebook.svg";
-import Instagram from "../../assets/Redes/Instagram.svg";
 import Whatsapp from "../../assets/Redes/Whatsapp.svg";
-import Camion from "../../assets/Navbar/Camion.svg";
-import WhatsappIcon from "../../assets/Navbar/Whatsapp.svg";
-import catalogo from "../../assets/Catálogo/catalogo.pdf";
+
 
 export const Menu = ({ open, toggleOpen, ...props }) => {
   return (

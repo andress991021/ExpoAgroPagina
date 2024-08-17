@@ -1,12 +1,9 @@
 import React from "react";
-import { PublicacionBlog } from "../../components";
-import costaRica from "../../assets/SectionThree/icono1.png";
-import Honduras from "../../assets/SectionThree/icono2.jpg";
 import imgNoticias1 from "../../assets/Noticias/imgNoticias1.png";
 import imgNoticias2 from "../../assets/Noticias/imgNoticias2.png";
 import imgNoticias3 from "../../assets/Noticias/imgNoticias3.png";
 import banner2 from "../../assets/Noticias/Banner2.png";
-import bannerMobile2 from "../../assets/Noticias/BannerMobile2.jpg";
+
 import { Footer } from "../../components";
 
 export const Blog = () => {
@@ -59,7 +56,10 @@ export const Blog = () => {
               la cartera y sus entidades adscritas, tras el aplazamiento de
               recursos anunciado por Hacienda a comienzo de este mes...
             </p>
-            <a href="https://www.minagricultura.gov.co/noticias/Paginas/Ejecuci%C3%B3n-del-sector-agro-es-del-46-5-en-sus-proyectos-de-inversi%C3%B3n-para-2024.aspx" target="_blank">
+            <a
+              href="https://www.minagricultura.gov.co/noticias/Paginas/Ejecuci%C3%B3n-del-sector-agro-es-del-46-5-en-sus-proyectos-de-inversi%C3%B3n-para-2024.aspx"
+              target="_blank"
+            >
               <h1 className="text-2xl  sm:mt-5  sm:text-3xl  font-bold  text-left text-green-700 underline">
                 Ver más
               </h1>
@@ -97,7 +97,10 @@ export const Blog = () => {
               Alimentación (FAO) donde se pueden cultivar y producir los
               alimentos que requiere la humanidad...
             </p>
-            <a href="https://www.eltiempo.com/vida/medio-ambiente/se-puede-conservar-la-biodiversidad-y-a-la-vez-impulsar-en-colombia-la-produccion-agricola-3351415" target="_blank">
+            <a
+              href="https://www.eltiempo.com/vida/medio-ambiente/se-puede-conservar-la-biodiversidad-y-a-la-vez-impulsar-en-colombia-la-produccion-agricola-3351415"
+              target="_blank"
+            >
               <h1 className="text-2xl  sm:mt-5  sm:text-3xl font-bold  text-left text-green-700 underline">
                 Ver más
               </h1>
@@ -133,7 +136,10 @@ export const Blog = () => {
               inundaciones, los cuales pueden perjudicar los cultivos o causar
               la muerte de plantas y animales...
             </p>
-            <a href="https://www.larepublica.co/especiales/seguros-2024/lo-que-tiene-que-saber-sobre-los-seguros-agropecuarios-3896874" target="_blank">
+            <a
+              href="https://www.larepublica.co/especiales/seguros-2024/lo-que-tiene-que-saber-sobre-los-seguros-agropecuarios-3896874"
+              target="_blank"
+            >
               <h1 className="text-2xl  sm:mt-5  sm:text-3xl font-bold  text-left text-green-700 underline mb-10 ">
                 Ver más
               </h1>

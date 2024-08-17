@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Video from "../../assets/Banner/BannerHome.mp4";
 import VideoMobile from "../../assets/Banner/BannerHomeMobile.mp4";
 

@@ -1,7 +1,5 @@
 import React from "react";
 import Fondo from "../../assets/Contacto/Fondo.png";
-import ImagenHombre from "../../assets/Contacto/ImagenHombre.svg";
-import ImagenMujer from "../../assets/Contacto/ImagenMujer.svg";
 import { Footer, Form } from "../../components";
 
 export const Contacto = () => {
@@ -37,7 +35,7 @@ export const Contacto = () => {
         </div>
       </div>
       <div className="md:flex justify-center md:mx-10  ">
-        <div className="w-1/2 md:mt-16  ">
+        <div className="w-full lg:w-1/2 md:mt-16 px-2 ">
           <Form type="contacto" />
         </div>
       </div>

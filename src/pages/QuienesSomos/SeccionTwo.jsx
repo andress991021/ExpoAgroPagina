@@ -1,8 +1,7 @@
 import React from "react";
-import imgQuality from "../../assets/Quienes_Somos/ImgQuality.png";
 import banner from "../../assets/Quienes_Somos/Banner.png";
 import banner2 from "../../assets/Quienes_Somos/Banner2.png";
-import bannerMobile from "../../assets/Quienes_Somos/BannerMobile.png";
+
 
 export const SeccionTwo = () => {
   return (

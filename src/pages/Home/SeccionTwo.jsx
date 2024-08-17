@@ -1,5 +1,4 @@
 import React from "react";
-
 import Cenefa01 from "../../assets/SectionTwo/Cenefa01.svg";
 import Icon01 from "../../assets/SectionTwo/Icon01.svg";
 import Icon02 from "../../assets/SectionTwo/Icon02.svg";

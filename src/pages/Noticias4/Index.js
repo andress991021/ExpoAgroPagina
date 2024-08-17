@@ -1,1 +1,0 @@
-export { Noticia4Load as Noticia4 } from './Noticia4Load'
